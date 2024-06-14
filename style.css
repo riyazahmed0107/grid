@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Mono", monospace;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.container > div
+{
+    height: 270px;
+    cursor: pointer;
+    background-position: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bg-1
+{
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7JFkdOu60NgWWQxy11hpIkF2Su3l1PtkXIg&s);
+}
+.bg-2
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk7zrWCmRfeaduxxbFXXZVbeJmqfbcgOcgVQ&s);
+}
+.bg-3
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgQUKc4jyxjOdRf0Qr28x_FIZG4dhkMMDGbw&s);
+}
+.bg-4
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP_ZpFPYYIXpGyeZfC0HD1eeVuiZKVCKzCIA&s);
+}
+.bg-5
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnjBupilUk5DBtlDdrVpd7NBUI69hrlnd5Wg&s);
+}
+.bg-6
+{
+    background-image: url(https://static.toiimg.com/thumb/msid-109408068,imgsize-1630522,width-400,resizemode-4/109408068.jpg);
+}
